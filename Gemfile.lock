@@ -297,6 +297,8 @@ GEM
       railties (~> 7.0)
       rotp (~> 6.0)
     docile (1.4.0)
+    dockerfile-rails (1.6.16)
+      rails (>= 3.0.0)
     doorkeeper (5.7.0)
       railties (>= 5)
     drb (2.2.1)
@@ -741,6 +743,7 @@ DEPENDENCIES
   debug
   devise
   devise-two-factor
+  dockerfile-rails (>= 1.6)
   factory_bot_rails (~> 6.2, != 6.4.2, != 6.4.1, != 6.4.0, != 6.3.0)
   foreman
   honeybadger

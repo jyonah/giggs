@@ -13,3 +13,10 @@ amazon:
   secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] || ENV['BUCKETEER_AWS_SECRET_ACCESS_KEY'] %>
   bucket: <%= ENV['AWS_S3_BUCKET'] || ENV['BUCKETEER_BUCKET_NAME'] %>
   region: <%= ENV['AWS_S3_REGION'] || ENV['BUCKETEER_AWS_REGION'] %>
+
+tigris:
+  service: S3
+  access_key_id: <%= ENV["AWS_ACCESS_KEY_ID"] %>
+  secret_access_key: <%= ENV["AWS_SECRET_ACCESS_KEY"] %>
+  endpoint: <%= ENV["AWS_ENDPOINT_URL_S3"] %>
+  bucket: <%= ENV["BUCKET_NAME"] %>
