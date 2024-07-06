@@ -7,6 +7,9 @@ app = 'giggs'
 primary_region = 'sjc'
 console_command = '/rails/bin/rails console'
 
+[env]
+  RAILS_MASTER_KEY = 'c51db6e869d4e8fbbfcc0d1412981c9c'
+
 [build]
 
 [deploy]
